@@ -30,7 +30,6 @@ const GithubProfileCard = ({ prof }) => {
 								<i className="ni ni-pin-3 text-info mr-2" />
 								{prof.location}
 							</div>
-							<SocialLinks />
 						</Col>
 					</Row>
 				</div>

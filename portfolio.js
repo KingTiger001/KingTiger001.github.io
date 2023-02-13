@@ -1,93 +1,67 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Mohit Mishra",
-	title: "Hi all, I'm Mohit",
-	description:
-		"I'm Mohit.❤️ You can also call me as Chessman. I'm a Machine learning Developer and a competitive programmer. Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include Data Analysis, Data Visualization, Machine learning and Deep Learning. I have developed a strong acumen for problem solving, and I enjoy an occasional challenge.",
+	name: "John Hernandez",
+	title: "Hi all, I'm John",
+	description1: "❤️ I'm John.",
+	description2: "Innovative, task-driven professional with 10+ years of experience in web development across diverse industries.",
+	description3: "Creative web developer dedicated to developing and optimizing interactive, user-friendly and feature-rich websites.",
+	description4: "Certified Technician that operates well in team environments in which technology expertise, extensive analytical skills, and strong problem solving abilities are key to success",
 	resumeLink:
 		"https://bit.ly/3UF6kgN",
 };
 
 export const openSource = {
-	githubUserName: "mohitmishra786",
+	githubUserName: "KingTiger001",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-//	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/mohitmishraml/",
-	github: "https://github.com/mohitmishra786",
-	medium: "http://mohitmishra786687.medium.com/",
-	twitter: "https://twitter.com/chessMan786",
+	phone_number: '123',
+	email: 'hernandez.john0014@gmail.com',
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY MACHINE LEARNING DEVELOPER WHO WANTS TO TALK WITH DATA",
+		"CRAZY CODE MONSTER WHO IS TRYING TO HELP YOU",
 	data: [
 		{
-			title: "Machine Learning Engineer",
+			title: "Programming Languages",
 			lottieAnimationFile: "/lottie/skills/machine_learning.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing end-to-end machine learning projects."
+					"⚡ Experience in developing RESTful or SOAP API."
 				),
 				emoji(
-					"⚡	Experienced in Exploratory data analysis."
+					"⚡	Experience in developing in user-friendly websites."
 				),
 				emoji(
-					"⚡ Experience of creating Computer Vision and Language Models."
-				),
-				emoji(
-					"⚡ Creating some model related to smell."
-				),
-				emoji(
-					"⚡ Also have created a small machine learning library using basic libraries."
-				),
+					"⚡ Experience of creating robust and solid server."
+				)
 			],
 			softwareSkills: [
+				{
+					skillName: "JavaScript",
+					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: 'TypeScript',
+					fontAwesomeClassname: "vscode-icons:folder-type-typescript-opened"
+				},
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
 				},
 				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
+					skillName: 'PHP',
+					fontAwesomeClassname: 'logos:php',
 				},
 				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
+					skillName: "Svelte",
+					fontAwesomeClassname: "logos:svelte-icon",
 				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-			],
-		},
-		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
-			],
-			softwareSkills: [
 				{
 					skillName: "HTML-5",
 					fontAwesomeClassname: "vscode-icons:file-type-html",
@@ -96,12 +70,24 @@ export const skillsSection = {
 					skillName: "CSS-3",
 					fontAwesomeClassname: "vscode-icons:file-type-css",
 				},
+			],
+		},
+		{
+			title: "Frameworks",
+			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			skills: [
+				emoji(
+					"⚡ Building responsive Single-Page-Apps (SPA) & PWA"
+				),
+				emoji("⚡ Building responsive Dynamic websites"),
+				emoji(
+					"⚡ Building RESTful and SOAP APIs"
+				),
+			],
+			softwareSkills: [
+				
 				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
+					skillName: "React",
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
@@ -109,8 +95,20 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "Angular",
+					fontAwesomeClassname: "logos:angular-icon",
+				},
+				{
+					skillName: "Vue",
+					fontAwesomeClassname: "skill-icons:vuejs-dark",
+				},
+				{
+					skillName: "Node",
+					fontAwesomeClassname: "vscode-icons:file-type-node2",
+				},
+				{
+					skillName: "Laravel",
+					fontAwesomeClassname: "logos:laravel",
 				},
 				{
 					skillName: "Django",
@@ -118,21 +116,25 @@ export const skillsSection = {
 				},
 
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Ruby on Rails",
+					fontAwesomeClassname: "vscode-icons:file-type-rails",
 				},
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
+					skillName: "D3.js",
+					fontAwesomeClassname: "logos:d3",
 				},
 				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
+					skillName: "Bootstrap",
+					fontAwesomeClassname: "skill-icons:bootstrap",
+				},
+				{
+					skillName: "Tailwind CSS",
+					fontAwesomeClassname: "skill-icons:tailwindcss-light",
 				},
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
+			title: "Services",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
@@ -154,6 +156,10 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:microsoft-azure",
 				},
 				{
+					skillName: 'Digital Ocean',
+					fontAwesomeClassname: "logos:digital-ocean",
+				},
+				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
 				},
@@ -162,75 +168,102 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql-icon"
 				},
 				{
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker-icon",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
+					skillName: "MongoDB",
+					fontAwesomeClassname: "logos:mongodb-icon",
 				},
 				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
+					skillName: 'Firebase',
+					fontAwesomeClassname: 'vscode-icons:file-type-light-firebasehosting'
 				},
 				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+					skillName: 'API Gateway',
+					fontAwesomeClassname: 'logos:aws-api-gateway'
+				}
 			],
 		},
+		{
+			title: "Tools",
+			lottieAnimationFile: "/lottie/skills/business-team.json", // Path of Lottie Animation JSON File
+			skills: [
+				emoji("⚡ Experience of working on multiple cloud platforms"),
+				emoji(
+					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+				),
+				emoji(
+					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+				),
+			],
+			softwareSkills: [
+				{
+					skillName: 'JEST',
+					fontAwesomeClassname: 'vscode-icons:file-type-jest'
+				},
+				{
+					skillName: 'Mocha',
+					fontAwesomeClassname: 'logos:mocha'
+				},
+				{
+					skillName: 'Git',
+					fontAwesomeClassname: 'akar-icons:github-fill'
+				},
+				{
+					skillName: 'Trello',
+					fontAwesomeClassname: 'logos:trello'
+				},
+				{
+					skillName: 'JIRA',
+					fontAwesomeClassname: 'logos:jira'
+				},
+				{
+					skillName: 'Slack',
+					fontAwesomeClassname: 'logos:slack-icon'
+				}
+			]
+		}
 		
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Machine Learning/ Deep Learing Modeling",
-		progressPercentage: "90",
+		Stack: "Architecture",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Data Analysis",
-		progressPercentage: "85",
-	},
-	{
-		Stack: "Data Visualization",
-		progressPercentage: "80",
-	},
-	{
-		Stack: "MLOps",
-		progressPercentage: "50",
-	},
-	{
-		Stack: "Cloud",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "60", //Insert relative proficiency in percentage
+		Stack: "Frontend", //Insert stack or technology you have experience in
+		progressPercentage: "95", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Cloud Service",
 		progressPercentage: "90",
+	},
+	{
+		Stack: "Data Visualization",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Database",
+		progressPercentage: "95",
 	},
 ];
 
 export const educationInfo = [
 	{
 		schoolName: "Lovely Professional University",
-		subHeader: "Bachelors of Computer Science and Engineering",
-		duration: "June 2019 - Present",
+		subHeader: "Bachelors of Computer Science",
+		duration: "April 2008 - March 2012",
 		desc: "Participated in the various coding contest and published a paper.",
 		grade: "Grade A",
 		descBullets: [
@@ -313,19 +346,19 @@ export const feedbacks = [
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Mohit Mishra",
+	title: "Hernandez John",
 	description:
-		"A passionate Machine Learning Developer and MLOps Enthusiast.",
-	author: "Mohit Mishra",
+		"A passionate and Honest Senior Full Stack Developer.",
+	author: "John Hernandez",
 	image: "https://avatars.githubusercontent.com/u/71754779?v=4",
 	// url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Mohit",
-		"Mohit Mishra",
-		"@chessman786",
-		"mohitmishra786",
+		"john",
+		"john hernandez",
+		"@john0014",
+		"KingTiger001",
 		"Portfolio",
-		"Mohit Portfolio ",
-		"Mohit Mishra Portfolio",
+		"Hernandez Portfolio ",
+		"Jon Hernandez Portfolio",
 	],
 }

@@ -81,85 +81,22 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								{socialLinks.facebook && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Facebook"
-											className="nav-link-icon"
-											href={socialLinks.facebook}
-											target="_blank"
-										>
-											<i className="fa fa-facebook-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Facebook
-											</span>
-										</NavLink>
-									</NavItem>
+								{socialLinks.phone_number && (
+									<div>
+										<i className="fa fa-phone" />
+										<span className="text-white ml-2">
+											{socialLinks.phone_number}
+										</span>
+									</div>
+									
 								)}
-								{socialLinks.instagram && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Instagram"
-											className="nav-link-icon"
-											href={socialLinks.instagram}
-											target="_blank"
-										>
-											<i className="fa fa-instagram" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Instagram
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.github && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Github"
-											className="nav-link-icon"
-											href={socialLinks.github}
-											target="_blank"
-										>
-											<i className="fa fa-github" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Github
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.linkedin && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Linkedin"
-											className="nav-link-icon"
-											href={socialLinks.linkedin}
-											target="_blank"
-										>
-											<i className="fa fa-linkedin" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Linkedin
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.twitter && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Twitter"
-											className="nav-link-icon"
-											href={socialLinks.twitter}
-											target="_blank"
-										>
-											<i className="fa fa-twitter-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
-											</span>
-										</NavLink>
-									</NavItem>
+								{socialLinks.email && (
+									<div>
+										<i className="fa fa-envelope" />
+										<span className="text-white ml-2">
+											{socialLinks.email}
+										</span>
+									</div>
 								)}
 							</Nav>
 						</UncontrolledCollapse>

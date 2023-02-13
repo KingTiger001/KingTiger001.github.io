@@ -33,10 +33,18 @@ const Greetings = () => {
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
 									</h1>
-									<p className="lead text-white">
-										{greetings.description}
-									</p>
-									<SocialLinks />
+									<h5 className="lead text-white">
+										{greetings.description1}
+									</h5>
+									<h5 className="lead text-white">
+										{greetings.description2}
+									</h5>
+									<h5 className="lead text-white">
+										{greetings.description3}
+									</h5>
+									<h5 className="lead text-white">
+										{greetings.description4}
+									</h5>
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
