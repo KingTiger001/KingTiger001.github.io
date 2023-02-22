@@ -2,12 +2,6 @@
 
 ## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
 
-<p align="center">
-  <kbd>
-    <img src="https://github.com/mohitmishra786/mohit-portfolio/blob/main/readme_pic.jpg"></img>
-  </kbd>
-</p>
-
 ## To view a live example, **[click here](https://mohit-portfolio-coral.vercel.app/)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
@@ -85,9 +79,3 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 ## Icons
 Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-👤 **Mohit Mishra**
-
--   Website: https://mohit-portfolio-coral.vercel.app/
--   Github: [mohitmishra786](https://github.com/mohitmishra786)
--   LinkedIn: [Mohit Mishra](https://linkedin.com/in/mohitmishraml)
