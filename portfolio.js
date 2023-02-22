@@ -1,93 +1,60 @@
-import emoji from "react-easy-emoji";
-
 export const greetings = {
-	name: "Mohit Mishra",
-	title: "Hi all, I'm Mohit",
-	description:
-		"I'm Mohit.❤️ You can also call me as Chessman. I'm a Machine learning Developer and a competitive programmer. Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include Data Analysis, Data Visualization, Machine learning and Deep Learning. I have developed a strong acumen for problem solving, and I enjoy an occasional challenge.",
+	name: "John Hernandez",
+	title: "Hi all.",
+	description1: "❤️ I'm John.",
+	description2: "Innovative, task-driven professional with 10+ years of experience in web development across diverse industries.",
+	description3: "Creative web developer dedicated to developing and optimizing interactive, user-friendly and feature-rich websites.",
+	description4: "Certified Technician that operates well in team environments in which technology expertise, extensive analytical skills, and strong problem solving abilities are key to success",
 	resumeLink:
 		"https://bit.ly/3UF6kgN",
 };
 
 export const openSource = {
-	githubUserName: "mohitmishra786",
+	githubUserName: "KingTiger001",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-//	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/mohitmishraml/",
-	github: "https://github.com/mohitmishra786",
-	medium: "http://mohitmishra786687.medium.com/",
-	twitter: "https://twitter.com/chessMan786",
+	phone_number: '+1 (781) 678-8899',
+	email: 'hernandez.john0014@gmail.com',
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY MACHINE LEARNING DEVELOPER WHO WANTS TO TALK WITH DATA",
+		"CRAZY CODE MONSTER WHO IS TRYING TO HELP YOU",
 	data: [
 		{
-			title: "Machine Learning Engineer",
+			title: "Programming Languages",
 			lottieAnimationFile: "/lottie/skills/machine_learning.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Experience in developing end-to-end machine learning projects."
-				),
-				emoji(
-					"⚡	Experienced in Exploratory data analysis."
-				),
-				emoji(
-					"⚡ Experience of creating Computer Vision and Language Models."
-				),
-				emoji(
-					"⚡ Creating some model related to smell."
-				),
-				emoji(
-					"⚡ Also have created a small machine learning library using basic libraries."
-				),
+				"⚡ Well-versed in various Programming Languages.",
+				"⚡ Strong Experience of 10 years.",
+				"⚡ Solid Ability of Solving Technical Problems.",
+				"⚡ Rich Experience in Project Management."
 			],
 			softwareSkills: [
+				{
+					skillName: "JavaScript",
+					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: 'TypeScript',
+					fontAwesomeClassname: "vscode-icons:folder-type-typescript-opened"
+				},
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
 				},
 				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
+					skillName: 'PHP',
+					fontAwesomeClassname: 'logos:php',
 				},
 				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
+					skillName: "Svelte",
+					fontAwesomeClassname: "logos:svelte-icon",
 				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-			],
-		},
-		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
-			],
-			softwareSkills: [
 				{
 					skillName: "HTML-5",
 					fontAwesomeClassname: "vscode-icons:file-type-html",
@@ -96,12 +63,22 @@ export const skillsSection = {
 					skillName: "CSS-3",
 					fontAwesomeClassname: "vscode-icons:file-type-css",
 				},
+			],
+		},
+		{
+			title: "Frameworks",
+			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			skills: [
+				"⚡ Experience in developing RESTful or SOAP API.",
+				"⚡	Experience in developing in user-friendly websites.",
+				"⚡ Experience of creating robust and solid server.",
+				"⚡ Building responsive Single-Page-Apps (SPA) & PWA.",
+				"⚡ Building responsive Dynamic websites"
+			],
+			softwareSkills: [
+				
 				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
+					skillName: "React",
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
@@ -109,8 +86,20 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "Angular",
+					fontAwesomeClassname: "logos:angular-icon",
+				},
+				{
+					skillName: "Vue",
+					fontAwesomeClassname: "skill-icons:vuejs-dark",
+				},
+				{
+					skillName: "Node",
+					fontAwesomeClassname: "vscode-icons:file-type-node2",
+				},
+				{
+					skillName: "Laravel",
+					fontAwesomeClassname: "logos:laravel",
 				},
 				{
 					skillName: "Django",
@@ -118,30 +107,30 @@ export const skillsSection = {
 				},
 
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Ruby on Rails",
+					fontAwesomeClassname: "vscode-icons:file-type-rails",
 				},
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
+					skillName: "D3",
+					fontAwesomeClassname: "logos:d3",
 				},
 				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
+					skillName: "Bootstrap",
+					fontAwesomeClassname: "skill-icons:bootstrap",
+				},
+				{
+					skillName: "Tailwind CSS",
+					fontAwesomeClassname: "skill-icons:tailwindcss-light",
 				},
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
+			title: "Services",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
+				"⚡ Experience of working on multiple cloud platforms.",
+				"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.",
+				"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions.",
 			],
 			softwareSkills: [
 				// ? Check README To get icon details
@@ -154,6 +143,10 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:microsoft-azure",
 				},
 				{
+					skillName: 'Digital Ocean',
+					fontAwesomeClassname: "logos:digital-ocean",
+				},
+				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
 				},
@@ -162,170 +155,177 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql-icon"
 				},
 				{
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker-icon",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
+					skillName: "MongoDB",
+					fontAwesomeClassname: "logos:mongodb-icon",
 				},
 				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
+					skillName: 'Firebase',
+					fontAwesomeClassname: 'vscode-icons:file-type-light-firebasehosting'
 				},
 				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+					skillName: 'API Gateway',
+					fontAwesomeClassname: 'logos:aws-api-gateway'
+				}
 			],
 		},
+		{
+			title: "Tools",
+			lottieAnimationFile: "/lottie/skills/business-team.json", // Path of Lottie Animation JSON File
+			skills: [
+				"⚡ Fast and Good communication.",
+				"⚡ Clean, Maintainable and Efficient Code.",
+				"⚡ Solid knowledge and Experience in Project Management Tools.",
+			],
+			softwareSkills: [
+				{
+					skillName: 'JEST',
+					fontAwesomeClassname: 'vscode-icons:file-type-jest'
+				},
+				{
+					skillName: 'Mocha',
+					fontAwesomeClassname: 'logos:mocha'
+				},
+				{
+					skillName: 'Git',
+					fontAwesomeClassname: 'akar-icons:github-fill'
+				},
+				{
+					skillName: 'Trello',
+					fontAwesomeClassname: 'logos:trello'
+				},
+				{
+					skillName: 'JIRA',
+					fontAwesomeClassname: 'logos:jira'
+				},
+				{
+					skillName: 'Slack',
+					fontAwesomeClassname: 'logos:slack-icon'
+				}
+			]
+		}
 		
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Machine Learning/ Deep Learing Modeling",
-		progressPercentage: "90",
+		Stack: "Architecture",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Data Analysis",
-		progressPercentage: "85",
-	},
-	{
-		Stack: "Data Visualization",
-		progressPercentage: "80",
-	},
-	{
-		Stack: "MLOps",
-		progressPercentage: "50",
-	},
-	{
-		Stack: "Cloud",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "60", //Insert relative proficiency in percentage
+		Stack: "Frontend", //Insert stack or technology you have experience in
+		progressPercentage: "95", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Cloud Service",
 		progressPercentage: "90",
+	},
+	{
+		Stack: "Data Visualization",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Database",
+		progressPercentage: "95",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Lovely Professional University",
-		subHeader: "Bachelors of Computer Science and Engineering",
-		duration: "June 2019 - Present",
-		desc: "Participated in the various coding contest and published a paper.",
+		schoolName: "University of Virginia",
+		subHeader: "Bachelors of Computer Science",
+		duration: "April 2008 - March 2012",
+		desc: "",
 		grade: "Grade A",
 		descBullets: [
-			"I am currently pursuing minor in Machine Learning.",
-			"I have also studied DBMS, OS, Computer Networks and other computer science fundamentals.",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Machine Learning Engineer",
-		company: "Omdena",
-		companylogo: "/img/icons/common/omdena.png",
-		date: "Sept 2021 – Jul 2022",
-		desc: "I worked as Machine Learning Engineer to design and create the AI algorithms capable of learning and making predictions. I worked here as a type and contributed myself as a enthusiastic ML Developer.",
+		role: "Web Developer",
+		company: "ARC Document Solutions",
+		companylogo: "/img/icons/common/arc.png",
+		date: "Apr 2012 – Jul 2017",
+		desc: `In this role, I learned the best practices and design patterns and developed app integration with  REST/SOAP and other APIs for Social media logins, payment processors and other services.
+		And I translated client requirements into application designs and systems requirements effectively.
+		I delivered 12 small to medium scale web projects with 3 other developers based on popular libraries like React, Angular and Vue.js.
+		`,
 		descBullets: [
-			"Improved accuracy of the model from 82 percent to 91 percent in the career recommendation model.",
-			"Formulated an AutoML pipeline to automatically search for the best neural model for Natural Language Processing tasks.",
-			"Analyzed factors contributing to homelessness in Texas and proposed a solution for homelessness.",
-			"Took the charge of developing an image augmentation pipeline for school image datasets.",
 		],
 	},
 	{
-		role: "Junior Machine Learning Engineer",
-		company: "iNeuron.ai",
-		companylogo: "/img/icons/common/ineuron.jpg",
-		date: "Jul 2021 – Sep 2021",
+		role: "Senior Full Stack Developer",
+		company: "Wollow International",
+		companylogo: "/img/icons/common/willow.svg",
+		date: "Jul 2017 – Nov 2021",
+		desc: `While working with the customers in various projects such as sports betting project, I implemented the use of user feedback in program improvements, resulting 50% boost in customer satisfaction rations. In this company, I designed and developed a user-friendly websites, including optimized check-out page.`,
 		descBullets: [
-			"Developed a solution that should be able to predict whether the mushroom is poisonous or edible.",
-			"Created a web app for the visualization of drug activity using streamlit.",
+			
 		],
 	},
 	{
-		role: "Open Source Collaborator",
-		company: "KWOC",
+		role: "Remote Full Stack Developer",
+		company: "Self Employed",
 		companylogo: "/img/icons/common/kwoc.png",
-		date: "Nov 2021 - Feb 2022",
-		desc: "Worked as Open Source Software Developer to create a web app for the analyis, in which I integrated computer vision AI model to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-];
-
-export const projects = [
-	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio built with react.js, next.js, typerScript, tailWind CSS and Sanity that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/mohitmishra786/My-Portfolio",
-		// link: "https://bit.ly/3AINU77",
-	},
-	{
-		name: "Tea-Quality Predictor",
-		desc: "I developed a detector and classifier model which will detect the correct image and classify its quality and also with that I also developed Flask API and used it for the deployment into Microsoft Azure. I had used AWS for the deployment of the model.",
-		github: "https://github.com/mohitmishra786/Tea-Leaf-Quality",
-	},
-	{
-		name: "Homelessness in Texas",
-		desc: "Get hands-on experience in technical skills with Exploratory Data Analysis. This project focuses mainly on the root causes of the increasing Homelessness in Texas. The data has been collected from Texas Homeless Network, Joint Centre for Housing Studies Harvard, Texas Government, Homelessness Information System, GitHub, and Kaggle. We were able to compare how COVID-19 has affected Texas and how the effects of COVID-19 have attributed to the other socio-economic factors of homelessness and homelessness rates.",
-		github: "https://github.com/mohitmishra786/Homelessness-in-Texas",
-		link: "https://bit.ly/3AINU77",
-	},
-	{
-		name: "Career Recommendation System",
-		desc: "In order to make this engine available for students, we created a web application using Flask as the backend. After filling out the form the student clicks on Recommendation to receive the top recommendation from the engine with a probability for each Major Core and with an explanation of the relevant scores fed to the engine. There any many algorithms used, which were built to predict the compatibility to a particular career given a students high school test scores.",
-		github: "https://github.com/mohitmishra786/Career-Recommendation-System",
+		date: "Nov 2021 - Present",
+		desc: `While I have been working as a remote developer, I learned how to work with remote teammates and clients.
+		In that process, I improved my skills to serve your coding needs and now, I am ready for your project.
+		I will produce perfect result for you.`
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "John Smith",
+		name: "Allen Iverson",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"An excellent client to work with. Has clear vision of needs and wants and presents those in a manner which is clear and understood. I look forward to working with this client on any future projects.",
 	},
 	{
-		name: "John Smith",
+		name: "Cillian Smith",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"Second time working together, had again a wonderful time helping a bright costumer with innovative thinking who strives to lead its business forward.",
 	},
+	{
+		name: "George Johnson",
+		feedback:
+			"Amazing work form John again. Highly recommend her for future work. He is very sincere, diligent and hard working. Thank you again for your work!",
+	},
+	{
+		name: "Robert Lopez",
+		feedback:
+			"John delivered exactly what we agreed to before the deadline. The source code was well organized and followed a standard naming convention. John was easy to communicate with and was available during work time. Best, Top Developer. Will continue to work with John for future projects."
+	}
 ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Mohit Mishra",
+	title: "Hernandez John",
 	description:
-		"A passionate Machine Learning Developer and MLOps Enthusiast.",
-	author: "Mohit Mishra",
+		"A passionate and Honest Senior Full Stack Developer.",
+	author: "John Hernandez",
 	image: "https://avatars.githubusercontent.com/u/71754779?v=4",
 	// url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Mohit",
-		"Mohit Mishra",
-		"@chessman786",
-		"mohitmishra786",
+		"john",
+		"john hernandez",
+		"@john0014",
+		"KingTiger001",
 		"Portfolio",
-		"Mohit Portfolio ",
-		"Mohit Mishra Portfolio",
+		"Hernandez Portfolio ",
+		"Jon Hernandez Portfolio",
 	],
 }
