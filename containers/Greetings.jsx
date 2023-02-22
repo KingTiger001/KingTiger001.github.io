@@ -46,10 +46,10 @@ const Greetings = () => {
 										{greetings.description4}
 									</h5>
 									<div className="btn-wrapper my-4">
-										<Button
-											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+										<a
+											className="btn-white btn-icon btn mb-3 mb-sm-0 ml-1"
 											color="default"
-											href={greetings.resumeLink}
+											href="/resume/John_Hernandez_Resume.pdf"
 										>
 											<span className="btn-inner--icon mr-1">
 												<i className="fa fa-file" />
@@ -57,7 +57,7 @@ const Greetings = () => {
 											<span className="btn-inner--text">
 												See My Resume
 											</span>
-										</Button>
+										</a>
 									</div>
 								</Col>
 								<Col lg="6">

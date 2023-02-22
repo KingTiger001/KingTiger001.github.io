@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { Fade } from "react-reveal";
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
+import emoji from "react-easy-emoji";
 import { skillsSection } from "../portfolio";
 
 const Skills = () => {

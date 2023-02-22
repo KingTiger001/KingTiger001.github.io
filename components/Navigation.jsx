@@ -90,6 +90,7 @@ const Navigation = () => {
 									</div>
 									
 								)}
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								{socialLinks.email && (
 									<div>
 										<i className="fa fa-envelope" />
